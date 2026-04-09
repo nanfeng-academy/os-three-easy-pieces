@@ -1,7 +1,21 @@
-.DS_Store
+# 1. Ignore all files within directories/folders
+[0-9]*/
 
+# 2. Allow Git to look inside these directories/folders for files with extensions
+![0-9]*/*.*
+
+# 3. "Whitelist" the specific files you want to keep
+!**/Makefile
+!**/*.h
+!**/*.cpp
+!**/*.sh
+!**/*.md
+
+# 4. Standard junk to ignore regardless of extension
+.DS_Store
 *.o
 *.out
 *.swp
 *.bak
-
+__pycache__/
+*.pyc
