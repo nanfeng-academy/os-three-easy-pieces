@@ -1,6 +1,4 @@
 // cpu.cpp: a simple program that uses the CPU and prints a string
-// Compile: gcc -std=c++17 -o cpu cpu.cpp
-// Example usage: ./cpu hello
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/time.h>

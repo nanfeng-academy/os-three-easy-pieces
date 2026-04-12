@@ -1,15 +1,12 @@
-# 1. Ignore all files within directories/folders
-[0-9]*/
+# 1. Ignore all files within [0-0]*directories/folders
+[0-9]*/**/*
 
-# 2. Allow Git to look inside these directories/folders for files with extensions
-![0-9]*/*.*
-
-# 3. "Whitelist" the specific files you want to keep
-!**/Makefile
-!**/*.h
-!**/*.cpp
-!**/*.sh
-!**/*.md
+# 2. "Whitelist" the specific files you want to keep
+![0-9]*/**/Makefile
+![0-9]*/**/*.h
+![0-9]*/**/*.cpp
+![0-9]*/**/*.sh
+![0-9]*/**/*.md
 
 # 4. Standard junk to ignore regardless of extension
 .DS_Store

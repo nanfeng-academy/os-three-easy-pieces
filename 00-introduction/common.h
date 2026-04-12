@@ -1,5 +1,5 @@
-#ifndef __common_h__
-#define __common_h__
+#ifndef __COMMON_H__
+#define __COMMON_H__
 
 #include <sys/time.h>
 #include <sys/stat.h>
@@ -18,4 +18,4 @@ void Spin(int howlong) {
 	; // do nothing in loop
 }
 
-#endif // __common_h__
+#endif // __COMMON_H__
