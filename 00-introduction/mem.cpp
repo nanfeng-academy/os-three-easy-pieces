@@ -1,7 +1,7 @@
 // mem.cpp: a program that accesses memory
 #include <unistd.h> // Unix Standard
 #include <stdio.h> // Standard Input and Output (C header)
-#include <stdlib.h>
+#include <stdlib.h> // Standard Library (C header)
 #include "common.h"
 
 int main(int argc, char *argv[]) {
