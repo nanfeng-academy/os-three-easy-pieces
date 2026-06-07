@@ -1,1 +1,1 @@
-gcc -o p1 p1.cpp
+./hm1
