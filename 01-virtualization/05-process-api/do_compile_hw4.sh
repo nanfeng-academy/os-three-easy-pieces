@@ -1,0 +1,1 @@
+g++ hw4.cpp -o hw4
